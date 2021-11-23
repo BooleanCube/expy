@@ -16,7 +16,7 @@ public class Main {
 
         //View Channels, Manage Roles, Send Messages, Embed Links, Attach Files, add reactions, use external emoji, manage messages
 
-        JDABuilder.createDefault("ODMwNjI3NTk2NTA4MjAwOTcx.YHJcOw.bgeGLYadgKzfblMDwhpxemVRMfU").setChunkingFilter(ChunkingFilter.ALL)
+        JDABuilder.createDefault("never gonna give you up").setChunkingFilter(ChunkingFilter.ALL)
                 .setMemberCachePolicy(MemberCachePolicy.ALL).enableIntents(GatewayIntent.GUILD_MEMBERS)
                 .setActivity(Activity.watching("you | e!help"))
                 .addEventListeners(new syncxp())
